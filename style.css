@@ -1,24 +1,25 @@
 body {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    background: linear-gradient(135deg, #295fd5, #9d8ce0);
-  }
-  
-  .group {
-    text-align: center;
-    overflow: hidden;
-  }
-  
-  .item {
-    width: 15vw;
-    height: 75vh;
-    display: inline-block;
-    margin: 1vw;
-    border-radius: 3vw;
-    background-position: center;
-    background-size: 75vh;
-    cursor: pointer;
-  }
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background: linear-gradient(135deg, #295fd5, #9d8ce0);
+}
+
+.group {
+  text-align: center;
+  overflow: hidden;
+}
+
+.item {
+  width: 15vw;
+  height: 75vh;
+  display: inline-block;
+  margin: 1vw;
+  border-radius: 3vw;
+  background-position: center;
+  background-size: 75vh;
+  cursor: pointer;
+  transition: all 3s ease-in-out;
+}
